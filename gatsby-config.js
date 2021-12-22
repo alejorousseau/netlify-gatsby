@@ -116,7 +116,7 @@ module.exports = {
         name: `Portfolio personal`,
         short_name: `Portfolio`,
         start_url: `/`,
-        background_color: `#ffffff`,
+        background_color: `#ffb4bf`,
         // This will impact how browsers show your PWA/website
         // https://css-tricks.com/meta-theme-color-and-trickery/
         // theme_color: `#663399`,
