@@ -1,6 +1,6 @@
 module.exports = {
   siteMetadata: {
-    title: `Portfolio personal`,
+    title: `Alejo Rousseau`,
     author: {
       name: `Alejo Rousseau`,
       summary: `estudiante, darrollador web y apasionado de la tecnología.`,
@@ -13,6 +13,16 @@ module.exports = {
   },
   plugins: [
     `gatsby-plugin-image`,
+    `gatsby-plugin-sass`,
+    {
+      resolve: `gatsby-plugin-google-fonts`,
+      options: {
+        fonts: [
+          `Lato`
+        ],
+        display: 'swap'
+      }
+    }
     {
       resolve: `gatsby-source-filesystem`,
       options: {
@@ -105,7 +115,7 @@ module.exports = {
               }
             `,
             output: "/rss.xml",
-            title: "Portfolio personal  RSS Feed",
+            title: "Alejo Rousseau  RSS Feed",
           },
         ],
       },
@@ -113,10 +123,10 @@ module.exports = {
     {
       resolve: `gatsby-plugin-manifest`,
       options: {
-        name: `Portfolio personal`,
-        short_name: `Portfolio`,
+        name: `Alejo Rousseau`,
+        short_name: `AR Portfolio`,
         start_url: `/`,
-        background_color: `#ffb4bf`,
+        background_color: `#fffff`,
         // This will impact how browsers show your PWA/website
         // https://css-tricks.com/meta-theme-color-and-trickery/
         // theme_color: `#663399`,
