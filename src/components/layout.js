@@ -18,7 +18,7 @@ const Layout = ({ location, title, children }) => {
   } 
   return (
     <div  data-is-root-path={isRootPath}>
-      <Header isRootPath={isRootPath} title={title}/>
+      {/*<Header isRootPath={isRootPath} title={title}/>*/}
       <div className="global-wrapper">
         <headerTitle className="global-header">{headerTitle}</headerTitle>
         <main>{children}</main>
